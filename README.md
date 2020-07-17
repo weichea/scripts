@@ -1,2 +1,2 @@
 # scripts
-Some quick scripts to get things done. 
+Some quick and dirty scripts to get things done. 
