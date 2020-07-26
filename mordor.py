@@ -18,7 +18,7 @@ def ingest_events(filename):
     with open(file, 'r') as f:
         for line in f:
             count = count + 1
-            if c < 1000:
+            if count < 1000:
                 event_dict = {}
                 data = ast.literal_eval(line)
             
